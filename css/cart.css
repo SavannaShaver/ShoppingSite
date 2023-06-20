@@ -10,9 +10,9 @@
 
  /******** cart styles ********/
 
-div#cart {
+/* div#cart {
 
-}
+} */
 
 #cart form {
     margin-bottom: 20px;
@@ -26,9 +26,9 @@ div#cart {
     width: 100%;
 }
 
-#cart tr {
+/* #cart tr {
 
-}
+} */
 
 #cart th, #cart td {
   border-bottom: 1px solid #CCCCCC;
@@ -36,20 +36,20 @@ div#cart {
   text-align: center;
 }
 
-#cart th {
+/* #cart th {
 
 }
 
 #cart td {
 
-}
+} */
 
 #cart tr.column-headings {
   background-color: #666666;
   color: #FFFFFF;
 }
 
-#cart tr.item {
+/* #cart tr.item {
 
 }
 
@@ -67,7 +67,7 @@ div#cart {
 
 #cart tr.total {
 
-}
+} */
 
 #cart th.shipping {
     text-align: right;
@@ -95,13 +95,13 @@ div#cart {
     text-align: left;
 }
 
-#cart td.item_price {
+/* #cart td.item_price {
 
 }
 
 #cart td.item_total {
 
-}
+} */
 
 #cart td.shipping {
     font-weight: bold;
