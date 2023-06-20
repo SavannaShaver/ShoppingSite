@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Fresh Air</title>
+
+<link rel="icon" href="img/logo.jpg">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/cart.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Caudex:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="loadCart()">
+
+  <div class="container1">
+    <div class="row">
+        <div class="full nopadding">
+               <img class="logo" src="img/logo1.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+        <div class="two-thirds">
+		 <div class="navcolor">
+            <nav id="rolling-nav">
+              <ul>
+               <nav id="rolling-nav">
+                <ul>
+				  <li><a href="index.html" data-clone="Home">Home</a></li>
+				  <li><a href="skateboard.html" data-clone="Skateboards">Skateboards</a></li>
+				  <li><a href="snowboard.html" data-clone="Snowboards">Snowboards</a></li>
+				  <li><a href="surfboard.html" data-clone="Surfboards">Surfboards</a></li>
+			    </ul>
+			   </nav>
+             </ul>
+			</nav> 
+         </div>
+       </div>
+		
+        <div class=" one-third">
+		  <div class="navcolor">
+          <nav id="rolling-nav">
+           <ul>
+             <nav id="rolling-nav">
+              <ul>
+			     <li><a href="cart_example.html" data-clone="Cart"><img src="img/cart.png" alt="carousel">   (<span id="item_count">0</span>)</a></li>
+			   <li><a href="checkout_example.html" data-clone="Checkout">Checkout</a></li>
+			  </ul>
+             </nav>
+            </ul> 
+        </div>
+      </div>
+   </div>
+   
+   <div class="row">
+     <div class="full">   
+       <div id="carousel">
+       <div> 
+       <img src="img/shop.jpg" alt="carousel">     
+	   </div>
+        <div>
+       <img src="img/snowboarding.jpeg" alt="carousel">
+       </div>  
+        <div>
+  
+     <img src="img/surfcaro.jpg" alt="carousel">
+        </div>
+        <div>
+        <img src="img/skateboarding.jpg" alt="carousel">
+        </div>
+        </div>
+	 </div>
+	 
+       </div>
+
+
+ 
+
+     </div>
+
+ <div class="nopadding">
+      <div class="row">
+        <div class="one-fourth">
+          <h3>Follow Us</h3>      
+            <a href="https://www.instagram.com/"><img src="img/instagram.png"alt="instagram logo"></a>
+            <a href="https://twitter.com/?lang=en"><img src="img/twitter.png"alt="twitter logo"></a>
+            <a href="https://www.facebook.com/"><img src="img/fb-like.png" alt="like us on facebook"></a>
+           <a href="https://www.youtube.com/"><img src="img/youtube-play.png" alt="Take a virtual tour of the resturant"></a>  
+         </div>
+
+        <div class="one-fourth">
+            <h3>Site made by:</h3>
+		   <p>Savanna .S</p>
+        </div>      
+        <div class=" one-fourth">     
+           <h3>Clearance  </h3>
+<p>The Sumo Surfboard</p>
+<p>Roxy Radiance C2 BTX Snowboard</p>
+<p>Superior Floral Skateboard Deck</p>
+        </div>
+        <div class=" one-fourth">
+           <h3>Contact Us </h3>
+           <p>(555) 264-6421</p>
+           <p>Email: FreshAir@gmail.com</p>
+   </div>
+</div>
+	  
+ </div>
+   <script src="js/jquery-2.1.4.min.js"> </script>
+   <script src="js/owl.carousel.min.js"> </script>
+ <script src="js/cart.js"> </script>
+     <script>    
+      $("#carousel").owlCarousel({    
+        items : 1,  
+        margin : 10,   
+        loop : true, 
+        autoplay : true,
+        autoplayTimeout :         
+        2000, /* in miliseconds! */
+        autoplayHoverPause : true,              
+        dots : true,
+        nav : false
+        });
+      </script>
+</body>
+</html>
